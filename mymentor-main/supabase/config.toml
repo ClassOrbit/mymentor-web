@@ -120,7 +120,6 @@ file_size_limit = "50MiB"
 enabled = true
 # The base URL of your website. Used as an allow-list for redirects and for constructing URLs used
 # in emails.
-jwt_secret = "E58P/zL5E4QAghl86k2mQDJUXDI3w6UpwHlM/jT1koCkCrgV0Slqb5PbhdnPYL7ffvqgBExpi2ryKMyio2Q3YQ=="
 site_url = "http://127.0.0.1:3000"
 # A list of *exact* URLs that auth providers are permitted to redirect to post authentication.
 additional_redirect_urls = ["https://127.0.0.1:3000"]
