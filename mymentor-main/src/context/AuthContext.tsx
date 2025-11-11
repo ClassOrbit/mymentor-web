@@ -1,7 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import type { ReactNode } from 'react';
 import { supabase } from '../supabaseClient';
-// import { Session, User as SupabaseUser } from '@supabase/supabase-js';
 import type { Session, User as SupabaseUser } from '@supabase/supabase-js';
 
 // 1. Define our new User type, which includes the role
@@ -9,7 +8,7 @@ interface AppUser {
   id: string;
   name: string;
   email: string;
-  role: 'student' | 'teacher' | null; // This now comes from 'profiles'
+  role: 'student' | 'teacher' | null;
 }
 
 // 2. Define the context's value

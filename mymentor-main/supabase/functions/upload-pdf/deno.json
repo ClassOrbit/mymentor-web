@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@2",
+    "pdf-parse": "https://esm.sh/pdf-parse@1.1.1",
+    "langchain/text_splitter": "https://esm.sh/langchain@0.1.30/text_splitter"
+  }
+}

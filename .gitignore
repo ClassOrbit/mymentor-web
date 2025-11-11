@@ -1,22 +1,22 @@
 # Logs
-logs
-*.log
+/mymentor-main/logs
+/mymentor-main/*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+mymentor-main/node_modules
 dist
 dist-ssr
 *.local
-.env
-.env.local
-.env.*.local
+mymentor-main/.env
+mymentor-main/.env.local
+mymentor-main/.env.*.local
 
 # Editor directories and files
-.vscode/*
+mymentor-main/.vscode
 !.vscode/extensions.json
 .idea
 .DS_Store
